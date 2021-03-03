@@ -1,0 +1,35 @@
+{
+  "name": "api-cupom-fiscal",
+  "version": "1.0.0",
+  "description": "API para retorno de dados de CF-e ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edupoli/API-Cupom-Fiscal.git"
+  },
+  "keywords": [
+    "CF-e",
+    "recaptcha",
+    "API",
+    "nodejs",
+    "puppeteer"
+  ],
+  "author": "Eduardo Policarpo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edupoli/API-Cupom-Fiscal/issues"
+  },
+  "homepage": "https://github.com/edupoli/API-Cupom-Fiscal#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "chrome-launcher": "^0.13.4",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "puppeteer": "^8.0.0",
+    "puppeteer-extra": "^3.1.17",
+    "puppeteer-extra-plugin-recaptcha": "^3.3.3"
+  }
+}
